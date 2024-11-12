@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log-in</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1>Form:-)</h1>
+    <form action="">
+
+       <div>
+        <label for="fname" >FirstName</label>
+        <input type="text" for="fname" id="fname" placeholder="FirstName" required>
+       </div><br>
+
+       <div> <label for="lname">LastName</label>
+        <input type="text" for="lname" id="lname"  placeholder="LastName" required>
+     </div><br>
+       
+       <div> <label for="email">Email</label>
+        <input type="email" id="email" required>
+    </div><br>
+
+       <div><label for="pwd">Password</label>
+         <input type="password" id="pwd"required>
+    </div><br>
+
+    <label for="mno">mobile Number</label>
+    <input type="number" id="mno" required><br><br>
+
+   <div>
+    <select name="Degrees" id="" required>
+        <option value="">---Select---</option>
+      <optgroup label="Degree">
+         <option value="Bca">Bca</option>
+        <option value="Bcom">Bcom</option>
+        <option value="Bsc">Bsc</option>
+        <option value="B.Tech">B.Tech</option>
+     </optgroup>
+
+     <optgroup label="Courses">
+        <option value="Python">Python</option>
+        <option value="Java">Java</option>
+        <option value="Dev.Ops">Dev.Ops</option>
+        <option value="Data Science">Data Science</option>
+    </optgroup>
+    </select>
+   </div>
+
+
+<div>  
+    <p>Select Gender:</p>
+    <input type="radio" name="gender" id="male" required>
+    <label for="male">Male</label>
+    
+    <input type="radio" name="gender"  id="fmale" required>
+    <label for="fmale">FeMale</label>
+
+    
+    <input type="radio" id="Other" name="gender" required>
+    <label for="Other">Other</label>
+</div>
+
+<div>
+        <p>Select Languages:</p>
+
+    <input type="checkbox" id="lang" required>
+    <label for="lang">Hindi</label>
+
+    <input type="checkbox"  id="lang1" required>
+    <label for="lang1">English</label>   
+    
+    <input type="checkbox"  id="lang2" >
+    <label for="lang2">Marathi</label>
+
+ </div>
+
+   
+ <div><p>Selcet Your DOB:</p>
+        <input type="date" name="" id="" required>
+    
+        <p>Select Color:</p>
+        <input type="color" name="" id="" required>
+
+        <p>Select File From Your Folder:</p>
+        <input type="file" name="" id="" >
+ </div>
+
+<input type="reset" value="reset">
+<button>Submit</button>  
+
+
+</form>
+</body>
+</html>
+
